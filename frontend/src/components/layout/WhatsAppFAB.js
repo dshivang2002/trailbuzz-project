@@ -3,7 +3,7 @@ import { MessageCircle } from 'lucide-react';
 export const WhatsAppFAB = () => {
   const handleWhatsAppClick = () => {
     const phoneNumber = '919198476606'; // With country code
-    const message = encodeURIComponent('Hi! I\'m interested in booking a tour with Yatrika.');
+    const message = encodeURIComponent('Hi! I\'m interested in booking a tour with Trailbuzz.');
     window.open(`https://wa.me/${phoneNumber}?text=${message}`, '_blank');
   };
 

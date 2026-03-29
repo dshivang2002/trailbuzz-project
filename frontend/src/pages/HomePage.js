@@ -124,7 +124,7 @@ const HomePage = () => {
               Journey Beyond Limits
             </h1>
             <p className="text-lg md:text-xl text-white/90 mb-8 max-w-2xl mx-auto leading-relaxed">
-              Discover the magic of India with Yatrika. Expert-guided tours across breathtaking destinations.
+              Discover the magic of India with Trailbuzz. Expert-guided tours across breathtaking destinations.
             </p>
 
             {/* Search Bar */}
@@ -276,7 +276,7 @@ const HomePage = () => {
       <section className="py-16 md:py-24 bg-[#FDFBF7]" data-testid="why-choose-section">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
-            <span className="text-xs uppercase tracking-[0.2em] text-[#F97316] font-semibold">WHY YATRIKA</span>
+            <span className="text-xs uppercase tracking-[0.2em] text-[#F97316] font-semibold">WHY TRAILBUZZ</span>
             <h2 className="text-3xl md:text-4xl font-black font-['Poppins'] text-[#1A3C6E] mt-3">
               Why Choose Us
             </h2>

@@ -60,7 +60,7 @@ const RefundPolicyPage = () => {
           <section>
             <h2 className="text-2xl font-bold text-[#1A3C6E] mb-4">4. Force Majeure</h2>
             <p className="text-[#475569]">
-              In case of tour cancellation by Yatrika due to unforeseen circumstances (natural disasters, political
+              In case of tour cancellation by Trailbuzz due to unforeseen circumstances (natural disasters, political
               unrest, pandemic, etc.), we will offer a full refund or credit voucher valid for 12 months.
             </p>
           </section>

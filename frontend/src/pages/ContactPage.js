@@ -234,7 +234,7 @@ const ContactPage = () => {
               allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="Yatrika Office Location"
+              title="Trailbuzz Office Location"
             ></iframe>
           </div>
         </div>

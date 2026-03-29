@@ -7,7 +7,7 @@ import { toast } from 'sonner';
 
 export const Footer = () => {
   const [email, setEmail] = useState('');
-  const LOGO_URL = 'https://customer-assets.emergentagent.com/job_4ce86279-3a36-4bbd-9264-6b6ce64e676c/artifacts/e3m79p4w_YATRIKA_transparent.png';
+  const LOGO_URL = 'https://customer-assets.emergentagent.com/job_4ce86279-3a36-4bbd-9264-6b6ce64e676c/artifacts/e3m79p4w_TRAILBUZZ_transparent.png';
 
   const handleNewsletterSubmit = (e) => {
     e.preventDefault();
@@ -24,12 +24,17 @@ export const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
           {/* Company Info */}
           <div>
-            <img
-              src={LOGO_URL}
-              alt="Yatrika"
-              className="h-12 w-auto mb-6 brightness-0 invert"
-              data-testid="footer-logo"
-            />
+            <div className="flex items-center space-x-2 mb-6">
+              <div className="w-12 h-12 bg-white rounded-lg flex items-center justify-center">
+                <span className="text-[#F97316] font-black text-2xl">TB</span>
+              </div>
+              <div>
+                <div className="text-2xl font-black font-['Poppins'] text-white leading-none">
+                  Trailbuzz
+                </div>
+                <div className="text-xs text-[#F97316] font-medium">Buzz into Adventure</div>
+              </div>
+            </div>
             <p className="text-white/80 text-sm leading-relaxed mb-4">
               Your trusted partner for unforgettable journeys across India. Experience the beauty and diversity of our incredible country.
             </p>
@@ -188,7 +193,7 @@ export const Footer = () => {
         <div className="container mx-auto px-4 py-6">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <p className="text-white/60 text-sm">
-              © {new Date().getFullYear()} Yatrika. All rights reserved.
+              © {new Date().getFullYear()} Trailbuzz. All rights reserved.
             </p>
             <div className="flex space-x-6 text-sm">
               <Link to="/privacy-policy" className="text-white/60 hover:text-[#F97316] transition-colors" data-testid="footer-privacy">

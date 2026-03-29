@@ -34,7 +34,7 @@ const TestimonialsPage = () => {
             What Our Travelers Say
           </h1>
           <p className="text-xl text-white/80">
-            Real experiences from real travelers who chose Yatrika
+            Real experiences from real travelers who chose Trailbuzz
           </p>
         </div>
       </div>

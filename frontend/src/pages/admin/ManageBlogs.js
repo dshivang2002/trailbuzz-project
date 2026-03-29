@@ -28,7 +28,7 @@ const ManageBlogs = () => {
     featured_image: '',
     category: 'Travel Tips',
     tags: [],
-    author_name: 'Yatrika Team',
+    author_name: 'Trailbuzz Team',
     status: 'published',
     meta_title: '',
     meta_description: ''
@@ -61,7 +61,7 @@ const ManageBlogs = () => {
       featured_image: '',
       category: 'Travel Tips',
       tags: [],
-      author_name: 'Yatrika Team',
+      author_name: 'Trailbuzz Team',
       status: 'published',
       meta_title: '',
       meta_description: ''

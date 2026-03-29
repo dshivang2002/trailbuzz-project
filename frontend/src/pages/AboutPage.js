@@ -69,7 +69,7 @@ const AboutPage = () => {
         <div className="relative z-10 container mx-auto px-4 h-full flex flex-col justify-center">
           <Breadcrumbs items={[{ name: 'About Us', path: '/about' }]} />
           <h1 className="text-4xl md:text-5xl font-black font-['Poppins'] text-white mb-4">
-            About Yatrika
+            About Trailbuzz
           </h1>
           <p className="text-xl text-white/90 max-w-2xl">
             Creating unforgettable travel experiences across India since 2010
@@ -89,7 +89,7 @@ const AboutPage = () => {
           
           <div className="prose prose-lg max-w-none space-y-6 text-[#475569] leading-relaxed">
             <p>
-              Yatrika was born from a simple yet profound belief: travel has the power to transform lives. 
+              Trailbuzz was born from a simple yet profound belief: travel has the power to transform lives. 
               Founded in 2010 by a group of passionate travel enthusiasts, we started with a vision to make 
               the diverse beauty of India accessible to everyone.
             </p>
@@ -158,7 +158,7 @@ const AboutPage = () => {
           <div className="text-center mb-12">
             <span className="text-xs uppercase tracking-[0.2em] text-[#F97316] font-semibold">OUR TEAM</span>
             <h2 className="text-3xl md:text-4xl font-black font-['Poppins'] text-[#1A3C6E] mt-3">
-              Meet The People Behind Yatrika
+              Meet The People Behind Trailbuzz
             </h2>
           </div>
           

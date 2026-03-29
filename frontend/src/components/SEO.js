@@ -9,7 +9,7 @@ export const SEO = ({
   schemaMarkup,
   breadcrumbs 
 }) => {
-  const siteName = 'Yatrika - Journey Beyond Limits';
+  const siteName = 'Trailbuzz - Buzz into Adventure';
   const fullTitle = title ? `${title} | ${siteName}` : siteName;
   
   return (

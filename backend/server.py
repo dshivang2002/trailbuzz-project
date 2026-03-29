@@ -240,7 +240,7 @@ class Blog(BaseModel):
     featured_image: str = ""
     category: str = ""
     tags: List[str] = []
-    author_name: str = "Yatrika Team"
+    author_name: str = "Trailbuzz Team"
     status: str = "published"  # published, draft
     views: int = 0
     meta_title: str = ""
@@ -256,7 +256,7 @@ class BlogCreate(BaseModel):
     featured_image: str = ""
     category: str = ""
     tags: List[str] = []
-    author_name: str = "Yatrika Team"
+    author_name: str = "Trailbuzz Team"
     status: str = "published"
     meta_title: str = ""
     meta_description: str = ""
@@ -305,7 +305,7 @@ class TestimonialCreate(BaseModel):
 class Settings(BaseModel):
     model_config = ConfigDict(extra="ignore")
     id: str = "global_settings"
-    business_name: str = "Yatrika"
+    business_name: str = "Trailbuzz"
     tagline: str = "Journey Beyond Limits"
     phone: str = "9198476606"
     email: str = "dshivang208@gmail.com"

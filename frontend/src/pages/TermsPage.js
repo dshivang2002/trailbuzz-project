@@ -17,7 +17,7 @@ const TermsPage = () => {
           <section>
             <h2 className="text-2xl font-bold text-[#1A3C6E] mb-4">1. Booking & Payment Terms</h2>
             <p className="text-[#475569] mb-3">
-              By booking a tour with Yatrika, you agree to pay the specified amount as per the booking confirmation.
+              By booking a tour with Trailbuzz, you agree to pay the specified amount as per the booking confirmation.
               A minimum advance of 25% of the total package cost is required to confirm your booking. The remaining
               balance must be paid before the commencement of the tour.
             </p>
@@ -38,7 +38,7 @@ const TermsPage = () => {
             <h2 className="text-2xl font-bold text-[#1A3C6E] mb-4">3. Travel Documents</h2>
             <p className="text-[#475569]">
               It is your responsibility to ensure you have valid identity proof, medical fitness certificates (if required),
-              and any necessary permits for restricted areas. Yatrika is not responsible for any issues arising from
+              and any necessary permits for restricted areas. Trailbuzz is not responsible for any issues arising from
               incomplete or invalid documentation.
             </p>
           </section>
@@ -46,7 +46,7 @@ const TermsPage = () => {
           <section>
             <h2 className="text-2xl font-bold text-[#1A3C6E] mb-4">4. Itinerary Changes</h2>
             <p className="text-[#475569]">
-              While we make every effort to adhere to the planned itinerary, Yatrika reserves the right to modify the
+              While we make every effort to adhere to the planned itinerary, Trailbuzz reserves the right to modify the
               itinerary due to unforeseen circumstances such as weather conditions, road blocks, political situations,
               or any other factors beyond our control. No refund will be provided for such changes.
             </p>
@@ -56,7 +56,7 @@ const TermsPage = () => {
             <h2 className="text-2xl font-bold text-[#1A3C6E] mb-4">5. Health & Safety</h2>
             <p className="text-[#475569]">
               Travelers must inform us of any medical conditions, allergies, or special requirements at the time of booking.
-              We recommend appropriate travel insurance covering medical emergencies. Yatrika is not liable for any
+              We recommend appropriate travel insurance covering medical emergencies. Trailbuzz is not liable for any
               health issues arising during the tour.
             </p>
           </section>
@@ -64,7 +64,7 @@ const TermsPage = () => {
           <section>
             <h2 className="text-2xl font-bold text-[#1A3C6E] mb-4">6. Liability Limitations</h2>
             <p className="text-[#475569]">
-              Yatrika acts only as an agent for hotels, transportation, and other service providers. We are not liable
+              Trailbuzz acts only as an agent for hotels, transportation, and other service providers. We are not liable
               for any loss, injury, damage, or delay caused by factors beyond our control. Our liability is limited to
               the amount paid for the tour package.
             </p>
@@ -74,7 +74,7 @@ const TermsPage = () => {
             <h2 className="text-2xl font-bold text-[#1A3C6E] mb-4">7. Code of Conduct</h2>
             <p className="text-[#475569]">
               Travelers are expected to maintain appropriate behavior and respect local customs, cultures, and environment.
-              Yatrika reserves the right to terminate services without refund if a traveler's conduct is deemed
+              Trailbuzz reserves the right to terminate services without refund if a traveler's conduct is deemed
               inappropriate or endangers other travelers.
             </p>
           </section>

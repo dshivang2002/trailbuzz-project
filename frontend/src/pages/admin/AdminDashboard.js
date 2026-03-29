@@ -86,7 +86,7 @@ const AdminDashboard = () => {
       {/* Header */}
       <header className="bg-white border-b border-gray-200 sticky top-0 z-10">
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
-          <h1 className="text-2xl font-bold text-[#1A3C6E]">Yatrika Admin</h1>
+          <h1 className="text-2xl font-bold text-[#1A3C6E]">Trailbuzz Admin</h1>
           <div className="flex items-center space-x-4">
             <span className="text-sm text-[#475569]">Welcome, {user?.name}</span>
             <Button

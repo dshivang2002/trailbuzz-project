@@ -47,7 +47,7 @@ const OurFleetPage = () => {
         {/* Intro */}
         <div className="max-w-3xl mx-auto text-center mb-16">
           <p className="text-lg text-[#475569] leading-relaxed">
-            At Yatrika, we understand that your journey is as important as your destination. 
+            At Trailbuzz, we understand that your journey is as important as your destination. 
             That's why we maintain a diverse fleet of modern, comfortable, and well-maintained vehicles 
             to suit every group size and travel need. All our vehicles come with experienced drivers, 
             GPS navigation, and comprehensive insurance.

@@ -16,7 +16,7 @@ const AdminSettings = () => {
   const navigate = useNavigate();
   const [loading, setLoading] = useState(false);
   const [settings, setSettings] = useState({
-    business_name: 'Yatrika',
+    business_name: 'Trailbuzz',
     tagline: 'Journey Beyond Limits',
     phone: '9198476606',
     email: 'dshivang208@gmail.com',

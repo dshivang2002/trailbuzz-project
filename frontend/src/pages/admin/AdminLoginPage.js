@@ -15,8 +15,6 @@ const AdminLoginPage = () => {
   const { login } = useAuth();
   const navigate = useNavigate();
 
-  const LOGO_URL = 'https://customer-assets.emergentagent.com/job_4ce86279-3a36-4bbd-9264-6b6ce64e676c/artifacts/e3m79p4w_YATRIKA_transparent.png';
-
   const handleSubmit = async (e) => {
     e.preventDefault();
     setLoading(true);
@@ -37,7 +35,17 @@ const AdminLoginPage = () => {
     <div className="min-h-screen bg-gradient-to-br from-[#1A3C6E] to-[#0f2744] flex items-center justify-center p-4" data-testid="admin-login-page">
       <Card className="w-full max-w-md p-8">
         <div className="text-center mb-8">
-          <img src={LOGO_URL} alt="Yatrika" className="h-16 mx-auto mb-4" />
+          <div className="flex items-center justify-center space-x-3 mb-4">
+            <div className="w-16 h-16 bg-gradient-to-br from-[#F97316] to-[#ea580c] rounded-xl flex items-center justify-center">
+              <span className="text-white font-black text-3xl">TB</span>
+            </div>
+            <div className="text-left">
+              <div className="text-3xl font-black font-['Poppins'] text-[#1A3C6E] leading-none">
+                Trailbuzz
+              </div>
+              <div className="text-sm text-[#F97316] font-medium">Buzz into Adventure</div>
+            </div>
+          </div>
           <h1 className="text-2xl font-bold text-[#1A3C6E] mb-2">Admin Portal</h1>
           <p className="text-[#475569]">Sign in to manage your travel business</p>
         </div>
@@ -51,7 +59,7 @@ const AdminLoginPage = () => {
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               required
-              placeholder="admin@yatrika.com"
+              placeholder="admin@trailbuzz.com"
               data-testid="admin-email-input"
             />
           </div>
@@ -93,7 +101,7 @@ const AdminLoginPage = () => {
         <div className="mt-8 p-4 bg-[#FDFBF7] rounded-lg">
           <p className="text-xs text-[#475569] text-center">
             <strong>Demo Credentials:</strong><br />
-            Email: admin@yatrika.com<br />
+            Email: admin@trailbuzz.com<br />
             Password: admin123
           </p>
         </div>

@@ -8,8 +8,6 @@ export const Header = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const location = useLocation();
 
-  const LOGO_URL = 'https://customer-assets.emergentagent.com/job_4ce86279-3a36-4bbd-9264-6b6ce64e676c/artifacts/e3m79p4w_YATRIKA_transparent.png';
-
   useEffect(() => {
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 20);
@@ -49,12 +47,19 @@ export const Header = () => {
 
             {/* Logo - Centered on Mobile, Left on Desktop */}
             <Link to="/" className="flex-shrink-0" data-testid="header-logo-link">
-              <img
-                src={LOGO_URL}
-                alt="Yatrika - Journey Beyond Limits"
-                className="h-10 lg:h-14 w-auto"
-                data-testid="yatrika-logo"
-              />
+              <div className="flex items-center space-x-2">
+                <div className="w-10 h-10 lg:w-12 lg:h-12 bg-gradient-to-br from-[#F97316] to-[#ea580c] rounded-lg flex items-center justify-center">
+                  <span className="text-white font-black text-xl lg:text-2xl">TB</span>
+                </div>
+                <div className="hidden sm:block">
+                  <div className="text-xl lg:text-2xl font-black font-['Poppins'] text-[#1A3C6E] leading-none">
+                    Trailbuzz
+                  </div>
+                  <div className="text-[10px] lg:text-xs text-[#F97316] font-medium leading-none">
+                    Buzz into Adventure
+                  </div>
+                </div>
+              </div>
             </Link>
 
             {/* Desktop Navigation */}
